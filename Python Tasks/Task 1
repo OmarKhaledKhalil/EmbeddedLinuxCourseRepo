@@ -1,1 +1,19 @@
+#!/usr/bin/python3
+
+#Input list by user
+input_string = (input("Enter a list element separated by space  "))
+my_list  =input_string.split()
+
+#Input Number by the user to be target
+target_number=(input("Enter The Target Number  "))
+
+#Count the existence of the input target number
+count=0
+for i in range(len(my_list)):
+    if my_list[i]==target_number:
+        count=count+1
+
+print(count)
+
+       
 
