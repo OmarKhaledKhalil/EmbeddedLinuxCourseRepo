@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+#Input list by user
+character = input("Enter a character: ")  
+
+#List of Vowels Characters
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']  
+
+#Searching in the Vowels List if the Input Character Exists or not
+
+if character in vowels:  
+    print(f"The Character '{character}' is a Vowel")  
+else:  
+    print(f"The Character '{character}' is a Not Vowel")  
+       
