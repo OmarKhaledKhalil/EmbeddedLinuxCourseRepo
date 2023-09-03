@@ -5,6 +5,9 @@
 user_name=input("Please Enter the User Name: ")
 password=input("Please Enther The Password: ")
 
+#Checks if the Input Username and Password are right or not
 if user_name=="Omar" and password=="123":
     print("Welcome "+user_name)
+else :
+    print("Wrong Username or Password")
 
