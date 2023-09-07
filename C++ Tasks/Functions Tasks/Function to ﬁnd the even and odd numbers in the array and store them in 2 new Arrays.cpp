@@ -42,7 +42,7 @@ void Merge_void_2Arrays( int arr[] , int copy_ArrLength , int **ArrayEven_Ref , 
         
         {
 
-           *((*ArrayEven_Ref)+j) = arr[i] ;
+           * ( (*ArrayEven_Ref) + j ) = arr[i] ;
             
             j++ ;
 
@@ -62,7 +62,7 @@ void Merge_void_2Arrays( int arr[] , int copy_ArrLength , int **ArrayEven_Ref , 
         
         {
 
-           *((*ArrayOdd_Ref)+j) = arr[i] ;
+           * ( (*ArrayOdd_Ref) + j ) = arr[i] ;
             
             j++ ;
 
