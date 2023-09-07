@@ -5,11 +5,11 @@ int main ()
 {
    //Defining  3  Variables  Locations  in   RAM   for  the  3  Input  Triangle Sides.
 
-   unsigned int  x,y,z;
+   unsigned int  x , y , z ;
 
    //Super Loop Program System.
 
-   while(1)
+   while ( 1 ) 
    {
    
    //Receiving   the   3   Input    Triangle   Sides    in      the    3    variables.
@@ -21,11 +21,11 @@ int main ()
 
    //Raised the 3 Input Triangle Sides to Power 2 , to do Right Triangle Calculations.
 
-    x=pow(x,2);
-    y=pow(y,2);
-    z=pow(z,2);
+    x = pow( x , 2 ) ;
+    y = pow( y , 2 ) ;
+    z = pow( z , 2 ) ;
 
-    if(x+y==z||x+z==y||y+z==x) //Equation : (a*a) + (b*b) = (c*c) Pythagorean theorem.
+    if( x + y == z || x + z == y || y + z == x ) //Equation : ( a * a ) + ( b * b ) = ( c * c) Pythagorean theorem.
     
     {
         std :: cout << "This is a Right Angle Triangle " << std :: endl ;
