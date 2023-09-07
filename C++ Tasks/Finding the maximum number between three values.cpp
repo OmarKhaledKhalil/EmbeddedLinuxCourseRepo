@@ -5,11 +5,11 @@ int main ()
    
    //Defining  3 Variables Locations in RAM for the 3 Input numbers.
 
-   int  x,y,z;
+   int  x , y , z ;
 
    //Super Loop Program System.
 
-   while(1)
+   while ( 1 )
    {
    
    //Receiving  the  3  Input   Numbers   in    the   3   variables.
@@ -24,10 +24,10 @@ int main ()
     //Printing  the  largest  number  from  the   3   input numbers.   
 
 
-    if(x>y)
+    if( x > y )
     {
 
-        if(x>z)
+        if( x > z )
         {
             std :: cout << "Largest Number is "<< x << std :: endl ;
         }
@@ -42,7 +42,7 @@ int main ()
     }
     else
     {
-        if(y>z)
+        if( y > z )
         {
 
             std :: cout << "Largest Number is "<< y << std :: endl ;
