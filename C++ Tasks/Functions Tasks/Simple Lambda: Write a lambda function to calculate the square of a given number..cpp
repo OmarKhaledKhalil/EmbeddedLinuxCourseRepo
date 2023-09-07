@@ -1,6 +1,6 @@
  [] ( auto x ) -> auto
     {
 
-      return x*x;
+      return x * x ;
 
-    };
+    } ;
