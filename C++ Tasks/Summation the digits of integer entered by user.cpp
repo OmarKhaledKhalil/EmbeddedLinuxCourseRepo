@@ -9,7 +9,7 @@ int main ()
 
    //Super Loop Program System.
 
-   while(1)
+   while ( 1 )
    {
 
     //Recieving the Input Number and store it in  the  Variable in RAM   .
@@ -19,13 +19,13 @@ int main ()
 
     //Doing Summation of the input number digits  till  number being  0  .
 
-      while(num)
+      while ( num )
       
       { 
         
-        sum=sum+num%10;
+        sum =  sum + (num % 10) ;
 
-        num=num/10;
+        num =  num  /  10 ;
 
       }
 
@@ -34,7 +34,7 @@ int main ()
       
       std :: cout << "Sum of digits is : " << sum << std :: endl ;
 
-      sum=0;
+      sum = 0 ;
 
    }
 
