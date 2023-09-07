@@ -1,4 +1,4 @@
-int * Merge_void_2Arrays(int arr1[],int arr2[], int copy_Array1Length , int copy_Array2Length)
+int * Merge_void_2Arrays( int arr1[] , int arr2[] , int copy_Array1Length , int copy_Array2Length )
 {
     int i = 0 , j = 0 , k ;
 
@@ -21,18 +21,18 @@ int * Merge_void_2Arrays(int arr1[],int arr2[], int copy_Array1Length , int copy
        {
            ptr[k] = arr1[i] ;
            
-           k++;
+           k++ ;
 
-           i++;
+           i++ ;
 
        }
        if( j < copy_Array2Length )
        {
            ptr[k] = arr2[j] ;
            
-           k++;
+           k++ ;
            
-           j++;
+           j++ ;
 
        }
     } 
