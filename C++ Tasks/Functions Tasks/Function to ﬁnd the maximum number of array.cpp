@@ -5,19 +5,19 @@ using namespace std;
 // Method  1  Without   any  Checks.
 
 
-int Array_int_FindMaxNumber(int arr[],int copy_Int_ArrLength)
+int Array_int_FindMaxNumber( int arr[] , int copy_Int_ArrLength )
 
 {
     //Sorting the array using Sort using sort() Functions , by Passing to it Two Pointers.
     //First  Pointer  is  looking  at  the  least  significant  location   of   the  Array.
     //Second Pointer  is  looking  at  the  least  significant  location   of   the  Array.
     
-    sort(arr,arr+copy_Int_ArrLength);
+    sort( arr , arr+copy_Int_ArrLength ) ;
 
     //Returning the last  Element in  the  Array  after  Sorting  it  in  Ascending  Order  
     //By Ensuring  that  the  last  element  shall be  the Max  Value  after  The  Sorting. 
     
-    return arr[copy_Int_ArrLength-1];
+    return   arr[copy_Int_ArrLength-1]   ;
 
 }
 
@@ -27,7 +27,7 @@ int Array_int_FindMaxNumber(int arr[],int copy_Int_ArrLength)
 
 
 
-int Array_int_FindMaxNumber_WithCheck(int arr[]  ,int copy_Int_ArrLength,int * return_value_Ref)
+int Array_int_FindMaxNumber_WithCheck( int arr[]  , int copy_Int_ArrLength , int * return_value_Ref )
 
 {
     
@@ -58,7 +58,7 @@ int Array_int_FindMaxNumber_WithCheck(int arr[]  ,int copy_Int_ArrLength,int * r
     //Using the Dereference to assign the value of Max element to the sent location correctly.
     
     
-    *  return_value_Ref = arr[ copy_Int_ArrLength - 1 ];
+    *  return_value_Ref = arr[ copy_Int_ArrLength - 1 ] ;
     
     }
 
