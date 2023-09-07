@@ -24,7 +24,7 @@ int main ()
 
     //Checking if the  Input  Letter  is  a  Vowel  letter  or  not  .
 
-        if(chr=='a'||chr=='e'||chr=='i'||chr=='u'||chr=='o')
+        if( chr == 'a' || chr == 'e' || chr == 'i' || chr == 'u' || chr == 'o' )
 
      {
 
