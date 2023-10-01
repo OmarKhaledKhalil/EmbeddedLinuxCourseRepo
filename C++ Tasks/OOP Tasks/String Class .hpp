@@ -152,6 +152,18 @@ class String  // String Blue Print
     }
 
 
+ //This is the Destructor.
+
+ ~ String ( )
+
+{
+    
+    delete String_Name ;
+    
+}
+
+
+
     private :    // Private Section of the String which contains un accessable variables of the class .
 
     
